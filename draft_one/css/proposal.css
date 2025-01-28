@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    height: 2rem;
+    background-color: #f9f9f9;
+    padding: .25em;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #a7c6cb;
+    font-size: 16px;
+    font-family: 'Helvetica Nue', 'Helvetica', 'Arial', sans-serif;
+}
+
+li {
+    padding: .5em;
+    font-style: italic;
+    font-size: 18px;
+}

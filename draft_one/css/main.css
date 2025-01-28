@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    /* font-size: 3.5rem;
+    font-weight: 300; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-footer {
+    max-width: 960px;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 1rem;
+    display: flex;
+}
+
+/*  trying to make footer stay at the bottom of the page
+    w/o being position:fixed !NOT BEING USED YET!*/
+.footer-fixer { 
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px 'Open Sans', sans-serif;
+    padding: 50px 50px 20px 50px;
+    margin-top: 80px;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.timer h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* th {
+    height: 2rem;
+    text-align: left;
+    padding: .5em;
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 2em;
+    border-bottom: 1px solid black;
+} */
+
+.logo {
+    max-width: 45px;
+    max-height: 50px;
+    margin-right: 10px;
+    
+}
+
+.intro-section {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    letter-spacing: 1px;
+}
+
+.intro-section p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.intro-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro-section ul li {
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* White background */
+    color: white; /* Dark text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Dark background on hover */
+}
+
+.index img {
+    width: 100%;
+}
+
+.navbar {
+    display: none;
+}
+
+
+
+@media (min-width: 598px) {
+    .hamburgerMenu {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    
+
+    
+}
+
+@media (min-width: 992px) {
+    
+
+   
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+.exercise img {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.exercise {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.exercise-introduction {
+    width: 600px;
+    padding: 1rem;
+}
+
+.exercise-option {
+    display: flex;
+    font-size: 50px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.reviews-box {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.user-name strong {
+    font-size: 1.1rem;
+}
+
+.reviews-comments {
+    font-size: 0.9rem;
+}

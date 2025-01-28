@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Create New Workout Plan</title>
+    <link rel="icon" href="img/dumbbell-favicon.jpg">
+</head>
+<body>
+    <nav>
+        <div class="hamburgerMenu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workout-plans.html">Workout Plans</a></li>
+                <li><a href="startworkout.html">Start</a></li>
+                <li><a href="browsing.html">Explore Exercises</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-footer">
+            <h1>Create a New Workout Plan</h1>
+            
+          </div>
+    </header>
+    <main>
+        <form>
+            <label for="planname">Workout Plan Name:</label>
+            <input type="text" id="planname" name="planname">
+            <div id="exercises">
+                <h2>Exercises:</h2>
+                <div class="exercise">
+                    <label for="exercisename1">Exercise 1:</label>
+                    <select name="exercisename1" id="exercisename1">
+                        <option value="pushup">Push-Up</option>
+                        <option value="benchpress">Bench Press</option>
+                        <option value="squat">Squat</option>
+                    </select>
+                    <label for="sets1">Sets:</label>
+                    <input type="number" name="sets1" id="sets1">
+                    <label for="reps1">Repetitions:</label>
+                    <input type="number" name="reps1" id="reps1">
+                </div>
+                <div class="exercise">
+                    <label for="exercisename2">Exercise 2:</label>
+                    <select name="exercisename2" id="exercisename2">
+                        <option value="pushup">Push-Up</option>
+                        <option value="benchpress">Bench Press</option>
+                        <option value="squat">Squat</option>
+                    </select>
+                    <label for="sets2">Sets:</label>
+                    <input type="number" name="sets2" id="sets2">
+                    <label for="reps2">Repetitions:</label>
+                    <input type="number" name="reps2" id="reps2">
+                </div>
+                
+                <input type="submit" value="Create Workout Plan">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="header-footer">
+            <p><a href="mailto:email@coffee.uw.edu"><span class="material-icons"></span> email@workoutappname.com</a></p>
+            <p>&copy; UFit 2023</p>
+          </div>
+    </footer>
+</body>
+</html>

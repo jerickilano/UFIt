@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Push Up",
+        "id": 1,
+        "muscles": ["Triceps", "Pectoral Muscles", "Shoulder"],
+        "equipments": false,
+        "Instructions": ["With your legs extended back, place the hands below the shoulders, slightly wider than shoulder-width apart.",
+                        "Start bending your elbows and lower your chest until it's just above the floor.",
+                        "Push back to the starting position. A 1-second push, 1-second pause, 2-second down count is ideal.",
+                        "Repeat"],
+        "img": "img/push-up.jpg"
+    },
+    {
+        "name": "Back Squat",
+        "id": 2,
+        "muscles": ["Lower back", "Glutes", "Hamstrings"],
+        "equipments": true,
+        "Instructions": ["Stand under the bar with your feet at about shoulder width apart.",
+                        "Position the bar so that it is resting on the muscles on the top of your back, not on the back of your neck. ",
+                        "Now take your hands over the back and grip the bar with a wide grip for stability.",
+                        "You should now bend at the knees and straighten your back in preparation to take the weight off the rack.",
+                        "Squat down until your thighs are parallel with the floor, and then slowly raise your body back up by pushing through your heels."],
+        "img": "img/back-squat.jpg"
+    },
+    {
+        "name": "Bent Over Row",
+        "id": 3,
+        "muscles": ["Lats", "Trapezius", "Rear Deltoids", "Lower back"],
+        "equipments": true,
+        "Instructions": ["Hold onto a barbell with your palms facing down. Bend your knees slightly and bend forward at the waist while keeping your back straight. It should be almost parallel with the floor. The barbell should be directly in front of you; your arms should be perpendicular to the floor. This is the starting position.",
+                        "While keeping your torso stationary, lift the barbell toward you. Your elbows should be kept close to your body. Use only your forearms to hold the weight. When you get to the top, squeeze your back muscles and hold for a few seconds.",
+                        "Slowly lower the barbell back to the starting position.",
+                        "Repeat the process for the number of repetitions in your workout routine."],
+        "img": "img/bent-over-row.jpg"
+    },
+    {
+        "name": "Bench Press",
+        "id": 4,
+        "muscles": ["Triceps", "Anterior Deltoid", "Chest"],
+        "equipments": true,
+        "Instructions": ["Lie on the bench with your eyes under the bar.",
+                        "Grab the bar with a medium grip-width (thumbs around the bar!)",
+                        "Unrack the bar by straightening your arms.",
+                        "Lower the bar to your mid-chest.",
+                        "Press the bar back up until your arms are straight."],
+        "img": "img/bench-press-gui.jpg"
+    },
+    {
+        "name": "Bicep Curl",
+        "id": 5,
+        "muscles": ["Biceps Brachii", "Brachialis", "Brachioradialis"],
+        "equipments": true,
+        "Instructions": ["Stand straight with a dumbbell in each hand, your feet shoulder-width apart, and hands by your sides.",
+                        "Squeeze the biceps and lift the dumbbells. Keep the elbows close to your body and the upper arms stationary, only the forearms should move.",
+                        "Once the dumbbells are at shoulder level, slowly lower the arms to the starting position.",
+                        "Repeat"],
+        "img": "img/bicep-curl.jpg"
+    },
+    {
+        "name": "Parallel Bar Dip",
+        "id": 6,
+        "muscles": ["Triceps", "Chest", "Shoulder"],
+        "equipments": true,
+        "Instructions": ["Stand between a set of parallel bars. Place a hand on each bar, and then take a small jump to help you get into the starting position with your arms locked out.",
+                        "Begin by flexing the elbow, lowering your body until your arms break 90 degrees. Avoid swinging, and maintain good posture throughout the descent.",
+                        "Reverse the motion by extending the elbow, pushing yourself back up into the starting position.",
+                        "Repeat for the desired number of repetitions."],
+        "img": "img/bar-dip.jpg"
+    },
+    {
+        "name": "Machine Chest Fly",
+        "id": 7,
+        "muscles": ["Pectoral Muscles", "Serratus Anterior"],
+        "equipments": true,
+        "Instructions": ["Sit up tall and relax your neck and shoulders. Your feet should be flat on the floor.",
+                        "Grab the handles so that your palms are facing forward. Note that some machines have a foot bar that you need to push in order to release the handles and bring them forward.",
+                        "Press your arms together in front of your chest with a slow, controlled movement. Keep a slight, soft bend in the elbows with wrists relaxed.",
+                        "Pause for one second once your arms are fully closed in front of your chest.",
+                        "Bring your arms slowly back to the starting position, opening your chest and keeping posture strong and upright.",
+                        "Perform two sets of seven to 10 repetitions to start. Take a short break between sets."],
+        "img": "img/chest-fly.jpg"
+    },
+    {
+        "name": "Plank",
+        "id": 8,
+        "muscles": ["Lats", "Triceps", "Traps", "Chest", "Biceps Brachii", "Rhomboids", "Glutes", "Hamstrings"],
+        "equipments": false,
+        "Instructions": ["Get into a push up position, with your elbows under your shoulders and your feet hip-width apart.",
+                        "Bend your elbows and rest your weight on your forearms and on your toes, keeping your body in a straight line.",
+                        "Hold for as long as possible."],
+        "img": "img/plank.jpg"
+    }
+]
